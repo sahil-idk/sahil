@@ -18,6 +18,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link"
+import { JSX, SVGProps } from "react"
 
 export function Footer() {
   return (
@@ -56,7 +57,7 @@ export function Footer() {
   )
 }
 
-function BookOpenIcon(props) {
+function BookOpenIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -77,7 +78,7 @@ function BookOpenIcon(props) {
 }
 
 
-function FileTextIcon(props) {
+function FileTextIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -101,7 +102,7 @@ function FileTextIcon(props) {
 }
 
 
-function FolderIcon(props) {
+function FolderIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -121,7 +122,7 @@ function FolderIcon(props) {
 }
 
 
-function MailIcon(props) {
+function MailIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
