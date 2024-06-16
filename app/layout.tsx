@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Footer } from "@/components/component/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,7 @@ export default function RootLayout({
         <section>
         <div className="relative  overflow-hidden bg-random tracking-tighter ">
         <div
-        className="  w-full  h-full bg-gradient-to-r from-black to-transparent"
+        className= " "
         style={{
           height: '100vh',
           display: 'grid',
@@ -33,9 +34,7 @@ export default function RootLayout({
              <div>
 
              </div>
-            <div className="absolute bottom-1">
-            Your menuba goes here 
-            </div>
+             <Footer/>
         </div>
        
         <div className="absolute inset-[-200%]  bg-noise opacity-20 animate-shift" >
