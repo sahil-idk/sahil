@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <section>
-        <div className="relative  overflow-hidden bg-random tracking-tighter ">
+        <div className="relative  overflow-hidden bg-black tracking-tighter ">
         <div
         className= " "
         style={{
