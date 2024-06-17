@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-    <main className="p-3 mx-auto md:ml-34 md:flex flex-auto items-center md:space-x-96">
+    <main className="p-3  overflow-hidden mx-auto md:ml-34 md:flex flex-auto items-center md:space-x-96">
       <div>
     <h1 className="text-5xl   font-bold">Sahil.</h1>
     <p className="mt-2"><Link className="hover:text-amber-600" href={'https://github.com/sahil-idk'}>Github</Link> | <Link className="hover:text-amber-600" href={'https://www.linkedin.com/in/sahil-70061822b/'}>LinkedIn </Link> | <Link className="hover:text-amber-600" href={'https://twitter.com/sahildkun'}>Twitter</Link></p>
