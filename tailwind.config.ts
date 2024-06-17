@@ -14,7 +14,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'noise' : "url('/noise.png')",
+        'noise' : "url('/noise3.jpg')",
         'key': "url('/key.jpg')",
         'mountain': "url('/mount.jpg')",
         'random': "url('/pc2.jpg')",
@@ -26,7 +26,7 @@ const config: Config = {
         },
       },
       animation: {
-        shift: 'shift 0.2s linear infinite both ',  /* Slowed down to 2 seconds with a smoother easing function */
+        shift: 'shift  ',  /* Slowed down to 2 seconds with a smoother easing function */
       },
       
     },
